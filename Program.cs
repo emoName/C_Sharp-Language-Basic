@@ -11,21 +11,6 @@ namespace C_Sharp_Language_Basic
     {
         static void Main(string[] args)
         {
-
-            //Order.Builder builder = new Order.Builder();
-            //builder.Bread("Wheat").Chees("America").Met("Ham");
-
-            //Order order = builder.build();
-
-            //Console.WriteLine($"{order.bred} , {order.met} , {order.chees} .");
-            ////----experiment-----------------------------------------------------------------------------------------------------------------------------
-
-            //MyClass myClass = new MyClass();
-
-            //myClass.SetA("aaaa").SetB("bbbb").SetC("cccc");
-            //Console.WriteLine(myClass.GetAll());
-
-
             Basic basic = new Basic();
             basic.Hello();
             basic.RefType();
